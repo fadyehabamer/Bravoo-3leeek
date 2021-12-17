@@ -97,7 +97,7 @@ i{
 }
 
 .info{
-    position: fixed;
+    position: absolute;
     bottom: 10px;
     text-align: center;
     width:100%;
