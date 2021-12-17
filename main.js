@@ -12,7 +12,7 @@ function play() {
         Swal.fire({
             icon: 'error',
             title: 'يا عاااام',
-            text: 'هشجعك و انت مكتبتش حاجه',
+            text: 'هشجعك ازاي و انت مكتبتش حاجه',
         })
     } else {
         video.classList.remove('hide');
