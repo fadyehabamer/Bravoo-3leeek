@@ -95,3 +95,8 @@ i{
         width:80%
     }
 }
+
+.info{
+    position: fixed;
+    bottom: 10px;
+}
