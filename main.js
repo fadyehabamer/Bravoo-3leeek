@@ -1,6 +1,8 @@
 const btn = document.getElementById('btn'),
     video = document.getElementById('video'),
-    textbox = document.getElementById('textBox')
+    textbox = document.getElementById('textBox'),
+          innerScreenHeight = window.innerHeight;
+document.querySelector(".info").style.top = innerScreenHeight + "px";
 
 
 
