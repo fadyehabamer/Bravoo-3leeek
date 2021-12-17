@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     direction: rtl;
     font-family: 'Cairo', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .container {
@@ -18,10 +21,9 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 30px;
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    gap: 30px;
-    pading-bottom:128px;
 }
 
 video {
@@ -53,7 +55,7 @@ video {
     outline: none;
     border: none;
     cursor: pointer;
-    transition:background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -74,32 +76,35 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 4px;
     outline: none
-  }
-a{
-    text-decoration: none;
-    color:rgb(6, 7, 6)
 }
-p{
+
+a {
+    text-decoration: none;
+    color: rgb(6, 7, 6)
+}
+
+p {
     text-align: center;
     margin-top: 30px;
     direction: ltr;
 }
-i{
-    margin-right:10px
+
+i {
+    margin-right: 10px
 }
-@media(max-width:300px){
-    h1{
+
+@media(max-width:300px) {
+    h1 {
         text-align: center
     }
+
     input[type=text] {
-        width:80%
+        width: 80%
     }
 }
 
-.info{
-    position: absolute;
-    bottom: 10px;
+.info {
     text-align: center;
-    width:100%;
-    height:128px
+    width: 100%;
+    height: 128px
 }
