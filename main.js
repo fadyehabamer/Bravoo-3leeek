@@ -1,8 +1,11 @@
 const btn = document.getElementById('btn'),
+    btn2 = document.getElementById('btn2'),
     video = document.getElementById('video'),
-    textbox = document.getElementById('textBox'),
-          innerScreenHeight = window.innerHeight;
-document.querySelector(".info").style.top = innerScreenHeight + "px";
+    video2 = document.getElementById('video2'),
+    textbox = document.getElementById('textBox')
+    
+//     innerScreenHeight = window.innerHeight;
+// document.querySelector(".info").style.top = innerScreenHeight + "px";
 
 
 
@@ -21,8 +24,14 @@ function play() {
     }
 
 }
+btn2.addEventListener('click', () => {
+    video2.classList.remove('hide');
+    video2.autoplay = true;
+    video2.load();
+})
 
 function videoEnd() {
     video.classList.add('hide')
+    video2.classList.add('hide')
     textbox.value = ''
 }
