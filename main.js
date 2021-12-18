@@ -3,7 +3,7 @@ const btn = document.getElementById('btn'),
     video = document.getElementById('video'),
     video2 = document.getElementById('video2'),
     textbox = document.getElementById('textBox')
-
+    
 //     innerScreenHeight = window.innerHeight;
 // document.querySelector(".info").style.top = innerScreenHeight + "px";
 
@@ -14,8 +14,8 @@ function play() {
     if (textbox.value == '') {
         Swal.fire({
             icon: 'error',
-            title: 'يا عاااام',
-            text:'اكتب حاجة يسطا'
+            title: 'اكتب حاجة يسطا',
+            text: 'هشجعك ازاي و انت مكتبتش حاجه',
         })
     } else {
         video.classList.remove('hide');
